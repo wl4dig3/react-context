@@ -7,6 +7,7 @@ const Gallery = ({src}) => {
   const {data, setData} = useContext(MyContext);
 const handleChange = () => {
   setData([...data, src.medium ])
+  alert('foto enviada a favoritos, gracias')
 }
 
   return (

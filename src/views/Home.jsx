@@ -26,7 +26,7 @@ const PHOTO_URL = "../../public/photos.json";
         fotos.length ?
         fotos.map( (fotito) => <Gallery key={fotito.id} {...fotito} /> )
         : 
-        <p>No tenemos fotitos</p>
+        <p>... Cargando</p>
       }
       </main>
       
