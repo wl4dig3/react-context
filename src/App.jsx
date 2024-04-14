@@ -4,7 +4,6 @@ import Navbar from "./components/Navbar";
 import Favorites from "./views/Favorites";
 import Home from "./views/Home";
 
-const PHOTO_URL = "/photos.json";
 
 const App = () => {
   return (
@@ -21,6 +20,7 @@ const App = () => {
           element={<Favorites />}
         />
       </Routes>
+      
     </div>
   );
 };
