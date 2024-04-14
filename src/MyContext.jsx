@@ -1,6 +1,6 @@
 import { createContext } from "react";
 
-const MyContext = createContext();
+const MyContext = createContext([]);
 
 const ValorProvider = ({children}) => {
 

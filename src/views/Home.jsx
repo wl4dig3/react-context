@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Gallery from "../components/Gallery";
 import axios from "axios";
+import '../index.css';
 
 
 const Home = () => {
@@ -15,12 +16,12 @@ const PHOTO_URL = "../../public/photos.json";
   }
   useEffect( () => {
     getFotos() 
-  })
+  }, [])
 
   return (
     <div className="App">
       <h1>Natural Pic Wla</h1>
-      <main>
+      <main className="gallery p-3 photo container-fotos">
       {
         fotos.length ?
         fotos.map( (fotito) => <Gallery key={fotito.id} {...fotito} /> )
