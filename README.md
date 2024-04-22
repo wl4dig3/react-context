@@ -1,4 +1,4 @@
-# Desafio Rouetr II
+# Desafio Router II
 ## Se utiliza una api de Pokemon para poner en práctica el uso de React Router y useNavigate
 ## Clonar el repoitorio y ejecutar:
 ## Install
